@@ -1,0 +1,69 @@
+/* global classes */
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.title-text{
+    font-family: var(--roboto);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 72px;
+}
+
+/* button */
+.button{
+    padding:.8rem 2.2rem ;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background .6s ease;
+    box-shadow: var(--box-shadow);
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background: rgb(223, 147, 8);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background .6s ease;
+}
+
+.button.secondary-button:hover{
+    background: var(--gradient-color);
+    color: whitesmoke;
+    box-shadow: var(--box-shadow);
+}
+p.para{
+    color: var(--text-color);
+    font-style: normal;
+    font-weight:  500;
+    font-size: 16px;
+    line-height: 25px;
+    font-family:var(--roboto);
+}

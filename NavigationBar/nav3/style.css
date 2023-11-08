@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+li,
+a,
+button,
+.social a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background: #24252a;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    order: 3;
+    margin-left: auto;
+}
+
+.nav {
+    order: 1;
+}
+
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.nav-links li:nth-child(1) {
+    display: inline;
+    padding: 0 20px 0 0;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #0088a9;
+}
+
+.cta {
+    order: 2;
+}
+
+button {
+    padding: 9px 25px;
+    background: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: rgba(0, 136, 169, 0.8);
+}
+
+main div {
+    background-image: url(../IMAGES/undraw_A_day_at_the_park_re_9kxj.svg);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.top-container {
+    background: rgb(18, 19, 32);
+    position: relative;
+    padding-top: 10px;
+
+}
+
+.social a {
+
+    cursor: pointer;
+    margin: 0 1rem;
+    right: 80px;
+    z-index: 1;
+    font-size: 1.5rem;
+}
+
+.so {
+    position: absolute;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+.flex{
+    margin: 0;
+    padding: 0;
+}
+.flex-items{
+    margin: 0;
+    padding: 0;
+}
+
+.flex .flex-items img {
+    width: 340px;
+    margin: 0 2rem;
+    padding: 0;
+    box-shadow: 9px 9px 3px #0a0a0a;
+}
